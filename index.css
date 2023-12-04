@@ -79,24 +79,24 @@ ul, li, a {
 
 .logo {
     position: absolute;
-    top: 40px;
+    top: 10px;
     left: 10px;
 }
 
 h1 {
     position: absolute;
     top: 200px;
-    left: 540px;
+    left: 580px;
 }
 
 .items__menu {
     position: absolute;
-    top: 40px;
-    left: 886px;
+    top: 20px;
+    left: 1020px;
 }
 
 .img__end {
-    width: 316px;
+    width: 340px;
 }
 
 h3 {
