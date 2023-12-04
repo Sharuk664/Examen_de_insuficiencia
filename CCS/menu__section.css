@@ -1,0 +1,21 @@
+.menu__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__section, .menu__sever, .attribution {
+    background-color: var(--Dark_moderate_cyan);
+}
+
+.menu__sever {
+    display: flex;
+    align-items: center;
+    padding: 0 4px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

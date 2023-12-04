@@ -1,0 +1,30 @@
+.team {
+    width: 100%;
+    height: 100%;
+}
+
+.team__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user {
+    display: flex;
+    
+}
+
+.user__team {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.data {
+    gap: 16px;
+}
+
+.img__team {
+    width: 50px;
+
+}

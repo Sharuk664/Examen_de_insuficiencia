@@ -1,0 +1,48 @@
+.presentation__text {
+    display: flex;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.img__image {
+    width: 46%;
+    gap: 32px;
+}
+
+
+.img__content {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+.direccion {
+    position: absolute;
+    top: 220px;
+    left: 170px;
+    padding: 36px;
+}
+
+.control {
+    position: absolute;
+    top: 240px;
+    left: 10px;
+    padding: 60px;
+}
+
+.presentation__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+}
+
+.img__special {
+    width: 100%;
+}
