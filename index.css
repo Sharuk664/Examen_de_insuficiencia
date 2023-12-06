@@ -20,8 +20,6 @@
     --black: #000;
 
     /*text*/
-
-
     --Barlow:('Barlow', sans-serif);
     --Fraunces:('Fraunces', serif);
 }
@@ -47,8 +45,8 @@ span, p, h6 {
 }
 
 .wrapper {
-    display: flex;
-    justify-content: space-between;
+    max-inline-size: 1440px;
+    margin: auto;
 }
 
 .menu {
@@ -72,27 +70,9 @@ ul, li, a {
 }
 
 .img__header {
-    display: inline-block;
-    position: relative;
+    background-image: url(./images/desktop/image-header.jpg);
+    background-size: cover;
     width: 100%;
-}
-
-.logo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
-h1 {
-    position: absolute;
-    top: 200px;
-    left: 580px;
-}
-
-.items__menu {
-    position: absolute;
-    top: 20px;
-    left: 1020px;
 }
 
 .img__end {

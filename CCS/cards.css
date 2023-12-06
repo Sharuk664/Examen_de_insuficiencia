@@ -1,6 +1,7 @@
 .base {
     display: flex;
     flex-direction: column;
+    border: 1px solid red;
 }
 
 .presentation__text {
@@ -14,40 +15,42 @@
 }
 
 .img__image {
-    width: 46%;
-    gap: 32px;
+    width: 100%;
 }
 
-
+/*
 .img__content {
+}
+.direccion {
+    position: absolute;
+    top: 290px;
+    left: 248px;
+    padding: 36px;
+    
     position: relative;
     display: inline-block;
     text-align: center;
-    margin: auto;
-}
-
-.direccion {
-    position: absolute;
-    top: 220px;
-    left: 170px;
-    padding: 36px;
 }
 
 .control {
     position: absolute;
     top: 240px;
     left: 10px;
-    padding: 60px;
+    padding: 144px;
 }
-
+*/
 .presentation__title {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    width: 500px;
+    padding: 196px;
 }
 
+/*
 .img__special {
-    width: 100%;
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-size: cover;
 }
+*/
+
