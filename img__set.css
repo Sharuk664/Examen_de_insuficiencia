@@ -1,0 +1,9 @@
+.img__set {
+    border: 1px solid purple;
+    display: flex;
+}
+
+.img__end {
+    border: 1px solid orange;
+    width: 316px;
+}

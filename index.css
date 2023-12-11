@@ -1,7 +1,8 @@
-@import './CCS/button.css';
-@import './CCS/cards.css';
-@import './CCS/team.css';
-@import './CCS/menu__section.css';
+@import './button.css';
+@import './cards.css';
+@import './team.css';
+@import './menu__section.css';
+@import './img__set.css';
 
 :root {
     /*primary*/
@@ -45,8 +46,8 @@ span, p, h6 {
 }
 
 .wrapper {
-    max-inline-size: 1440px;
     margin: auto;
+    border: 1px solid blue;
 }
 
 .menu {
@@ -75,10 +76,11 @@ ul, li, a {
     width: 100%;
 }
 
-.img__end {
-    width: 340px;
+h3 {
+    padding: 16px;
+    color: var(--Dark_blue);
 }
 
-h3 {
-    color: var(--Dark_blue);
+i {
+    padding: 12px;
 }
