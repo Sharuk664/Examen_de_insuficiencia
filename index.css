@@ -107,3 +107,12 @@ i {
     padding: 0 0 0 100px;
     justify-content: center;
 }
+
+.text {
+    font-size: 20px;
+    color: var(--black);
+}
+
+h6 {
+    color: var(--Dark_grayish_blue);
+}

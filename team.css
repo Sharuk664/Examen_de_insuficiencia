@@ -1,6 +1,7 @@
 .team {
     width: 100%;
     height: 100%;
+    padding: 100px;
 }
 
 .team__description {
@@ -29,6 +30,9 @@ h2, span, h6 {
 
 p {
     padding: 40px;
+    font-size: 12px;
+    text-align: center;
+    color: var(--Dark_grayish_blue);
 }
 
 .data {
