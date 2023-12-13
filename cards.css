@@ -19,20 +19,22 @@
     width: 632px;
 }
 
+.inner__base {
+    height: 66vh;
+}
+
 .presentation__title {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 20px;
-    padding: 100px;
+    padding: 128px;
 }
 
 .presentation__title__two {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 20px;
-    padding: 100px 100px 120px 100px;
+    padding: 128px;
 }
 
 .presentation__img {
@@ -50,5 +52,5 @@
 }
 
 .sub__base {
-    padding: 100px;
+    padding: 120px;
 }

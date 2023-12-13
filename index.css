@@ -40,6 +40,15 @@ h1 {
     font-size: 36px;
 }
 
+.text__span {
+    font-size: 12px;
+    color: var(--Very_dark_grayish_blue);
+}
+
+.span {
+    text-align: center;
+}
+
 span, p, h6 {
     font-family: 'Fraunces', serif;
 }
@@ -64,6 +73,7 @@ span, p, h6 {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding: 12px 0 0 0;
     gap: 760px;
 }
 
@@ -86,6 +96,28 @@ ul, li, a {
     height: 100vh;
 }
 
+.h2__img {
+    display: flex;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    color: var(--Dark_blue);
+}
+
+.h2__tem {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    color: var(--Very_dark_grayish_blue);
+}
+
+h2 {
+    display: flex;
+    font-size: 32px;
+    justify-content: left;
+    text-align: left;
+}
+
 h3 {
     padding: 16px;
     color: var(--Dark_blue);
@@ -104,13 +136,24 @@ i {
 
 .arrow {
     display: flex;
-    padding: 0 0 0 100px;
+    padding: 52px 0 0 100px;
     justify-content: center;
 }
 
 .text {
     font-size: 20px;
     color: var(--black);
+    text-align: left;
+    padding: 16px;
+    text-decoration: underline yellow;
+}
+
+.text__two {
+    font-size: 20px;
+    color: var(--black);
+    text-align: left;
+    padding: 16px;
+    text-decoration: underline red;
 }
 
 h6 {
